@@ -1,52 +1,6 @@
-
-.btn-secondary {
-  @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
-  &.striped {
-    @include gradient-striped($btn-secondary-bg);
+.btn {
+ &.striped {
+   @include gradient-striped();
     background-size: $spacer-y $spacer-y;
-  }
-}
-
-.btn-primary {
-  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
-  &.striped.disabled {
-    @include gradient-striped(green);
-    background-size: $spacer-y $spacer-y;
-  }
-  &.striped.active {
-   @include gradient-striped(red);
-   background-size: $spacer-y $spacer-y; 
-  }
-}
-
-.btn-info {
-  @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
-  &.striped {
-    @include gradient-striped($btn-info-bg);
-    background-size: $spacer-y $spacer-y;
-  }
-}
-
-.btn-success {
-  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
-  &.striped {
-    @include gradient-striped($btn-success-bg);
-    background-size: $spacer-y $spacer-y;
-  }
-}
-
-.btn-warning {
-  @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
-  &.striped {
-    @include gradient-striped($btn-warning-bg);
-    background-size: $spacer-y $spacer-y;
-  }
-}
-
-.btn-danger {
-  @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
-  &.striped {
-    @include gradient-striped($btn-danger-bg);
-    background-size: $spacer-y $spacer-y;
-  }
+ }
 }

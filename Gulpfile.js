@@ -7,6 +7,6 @@ gulp.task('build', function () {
     .pipe(gulp.dest('./public/css/'))
 });
 
-gulp.task('default', function () {
+gulp.task('watch', function () {
   gulp.watch('src/scss/flavors/**/*.scss', ['build']);
 });

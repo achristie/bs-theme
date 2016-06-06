@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "npm run build && gulp watch",
+    "start": "cd public && http-server"
   },
   "author": "",
   "license": "MIT",
@@ -12,6 +14,7 @@
     "bootstrap": "^4.0.0-alpha.2",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.1"
+    "gulp-sass": "^2.3.1",
+    "http-server": "^0.9.0"
   }
 }

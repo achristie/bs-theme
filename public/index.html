@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Invetory Page</title>
+  <title>Inventory Page</title>
   <link href='./css/buyside/ipreo-styles-flex.css' rel='stylesheet'/>
 </head>
 <body>
@@ -11,13 +11,13 @@
     <h5> Primary Button </h5>
     <div class='row'>
       <div class='col-xs-4'>
-        <button class='btn btn-primary btn-sm btn-block striped'> Export </button>
+        <button class='btn btn-primary btn-sm btn-block'> Export </button>
       </div>
       <div class='col-xs-4'>
-        <button class='btn btn-primary btn-sm btn-block striped active'> Export </button>
+        <button class='btn btn-primary btn-sm btn-block active'> Export </button>
       </div>
       <div class='col-xs-4'>
-        <button class='btn btn-primary disabled btn-sm btn-block striped'> Export </button>
+        <button class='btn btn-primary disabled btn-sm btn-block'> Export </button>
       </div>
     </div>
     <h5 class='m-t-1'> Secondary Button </h5>
@@ -35,18 +35,21 @@
     <h5 class='m-t-1'> Additional Button States </h5>
     <div class='row'>
       <div class='col-xs-4'>
-        <button class='btn btn-secondary btn-sm btn-block'> 
-          <span class='text-success'> &#x2714;</span>  
-          Sent 
+        <button class='btn btn-secondary btn-sm btn-block'>
+          <span class='text-success'> &#x2714;</span>
+          Sent
         </button>
       </div>
       <div class='col-xs-4'>
-        <button class='btn btn-secondary striped active btn-sm btn-block'> 
+        <button class='btn btn-secondary striped btn-sm btn-block'>
           Processing
         </button>
       </div>
       <div class='col-xs-4'>
-        <button class='btn btn-secondary disabled btn-sm btn-block striped'> Export </button>
+        <button class='btn btn-danger disabled btn-sm btn-block'>
+          <i class="fa fa-exclamation-triangle"></i>
+          <span> Invalid email address / password combination. Please try again. </span>
+        </button>
       </div>
     </div>
   </div>
