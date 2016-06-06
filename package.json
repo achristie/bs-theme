@@ -1,0 +1,17 @@
+{
+  "name": "isf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}

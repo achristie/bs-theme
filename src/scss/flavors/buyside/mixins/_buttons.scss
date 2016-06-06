@@ -1,0 +1,4 @@
+@mixin button-striped-variant($color, $background, $border) {
+  @include button-variant($color, $background, $border);
+  background-image: red;
+}
